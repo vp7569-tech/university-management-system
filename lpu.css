@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;	
+}
+#super
+{
+height:900px;
+width:100%;
+background-image:url(../images/statue.jpeg);
+background-size:100% 100%;
+}
+#head4
+{
+height:100px;
+width:200px;
+background-image:url(../images/5.jpg);
+background-size:100% 100%;
+float:left;
+}
+#head
+{
+height:100px;
+width:1148px;
+background-image:url(../images/lovely.jpeg);
+float:left;
+}
+#head5
+{
+height:50px;
+width:600px;
+padding-top:30px;
+margin:0 auto;
+}
+#blank
+{
+height:30px;
+width:100%;	
+}
+#main1
+{
+height:580px;
+width:200px;
+/*background-image:url(../images/shine.jpg);
+background-repeat:no-repeat;
+background-size:cover;*/
+background-color:#CCC;
+padding-top:10px;
+float:left;
+}
+#imga
+{
+height:235px;
+width:180px;
+background-image:url(../images/lpu3.jpg);
+background-size:100% 100%;
+margin:0 auto;
+transition:all 1s;
+float:left;
+}
+#imga:hover
+{
+transform:scale(1.1,1.1);
+}
+#imgb
+{
+height:313px;
+width:180px;
+background-color:#FFC1C1;
+padding-bottom:10px;
+margin:0 auto;
+transition:all 1s;
+float:left;
+}
+#imgb:hover
+{
+transform:translate(20px,20px);
+}
+#main2
+{
+height:580px;
+width:200px;
+/*background-image:url(../images/shine.jpg);
+background-repeat:no-repeat;
+background-size:cover;*/
+background-color:#CCC;
+padding-top:10px;
+float:left;
+}
+#imgc
+{
+height:235px;
+width:180px;
+margin:0 auto;
+animation:preet 2s;
+transition:all 1s;
+animation-iteration-count:infinite;
+float:left;
+
+
+}
+@keyframes preet{
+from{background-image:url(../images/3.jpg);
+background-size:100% 100%;
+}
+to{background-image:url(../images/2.jpg);
+background-size:100% 100%;
+}
+}
+#imgd
+{
+height:313px;
+width:180px;
+background-color:#FFC1C1;
+padding-bottom:10px;
+margin:0 auto;
+transition:all 1s;
+float:left;
+
+}
+#imgd:hover
+{
+transform:translate(20px,20px);
+}
+#main3
+{
+height:580px;
+width:200px;
+/*background-image:url(../images/shine.jpg);
+background-repeat:no-repeat;
+background-size:cover;*/
+background-color:#CCC;
+padding-top:10px;
+float:left;
+
+}
+#imge
+{
+height:235px;
+width:180px;
+margin:0 auto;
+animation:preet1 2s;
+transition:all 1s;
+animation-iteration-count:infinite;
+float:left;
+
+}
+@keyframes preet1{
+from{background-image:url(../images/a1.jpg);
+background-size:100% 100%;
+}
+to{background-image:url(../images/a2.jpg);
+background-size:100% 100%;
+}
+}
+#imgf
+{
+height:313px;
+width:180px;
+background-color:#FFC1C1;
+padding-bottom:10px;
+margin:0 auto;
+transition:all 1s;
+float:left;
+
+}
+#imgf:hover
+{
+transform:translate(20px,20px);
+}
+
+#main4
+{
+height:580px;
+width:200px;
+/*background-image:url(../images/shine.jpg);
+background-repeat:no-repeat;
+background-size:cover;*/
+background-color:#CCC;
+padding-top:10px;
+float:left;
+
+}
+#imgg
+{
+height:235px;
+width:180px;
+margin:0 auto;
+animation:preet2 2s;
+transition:all 1s;
+animation-iteration-count:infinite;
+float:left;
+
+}
+@keyframes preet2{
+from{background-image:url(../images/4.jpg);
+background-size:100% 100%;
+}
+to{background-image:url(../images/mall.jpg);
+background-size:100% 100%;
+}
+}
+#imgh
+{
+height:313px;
+width:180px;
+background-color:#FFC1C1;
+padding-bottom:10px;
+margin:0 auto;
+transition:all 1s;
+float:left;
+
+}
+#imgf:hover
+{
+transform:translate(20px,20px);
+}
+#video
+{
+height:580px;
+width:545px;
+background-color:#9CC;
+float:right;
+}
+#end
+{
+height:50px;
+width:300px;
+background-color:#9CF;
+margin:0 auto;
+clear:both;
+padding-top:50px;
+
+}
